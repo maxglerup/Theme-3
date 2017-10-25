@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    
+}
+
+/*----- Web Safe Font ---- */
+
+h1.headline {
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+    border: 5px solid #000000;
+    padding: 5px;
+}
+
+/*-------- Google Font -------- */
+
+h1.headline2 {
+    font-family: 'Indie Flower', cursive;
+    background-color: white;
+    border: 5px solid #000000;
+    padding: 5px;
+    
+}
+
+/*------- Font Face ------ */
+
+h1.headline3 {
+    font-family: myFirstFont;
+    background-color: white;
+    border: 5px solid #000000;
+    padding: 5px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(KaushanScript-Regular.otf);
+}
